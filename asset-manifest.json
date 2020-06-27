@@ -1,16 +1,16 @@
 {
   "main.css": "/Udacity-Book-Tracking-App/static/css/main.8694ac02.chunk.css",
-  "main.js": "/Udacity-Book-Tracking-App/static/js/main.eef88bae.chunk.js",
-  "main.js.map": "/Udacity-Book-Tracking-App/static/js/main.eef88bae.chunk.js.map",
+  "main.js": "/Udacity-Book-Tracking-App/static/js/main.6e9a0def.chunk.js",
+  "main.js.map": "/Udacity-Book-Tracking-App/static/js/main.6e9a0def.chunk.js.map",
   "static/css/1.ab87b6a5.chunk.css": "/Udacity-Book-Tracking-App/static/css/1.ab87b6a5.chunk.css",
-  "static/js/1.f4becb27.chunk.js": "/Udacity-Book-Tracking-App/static/js/1.f4becb27.chunk.js",
-  "static/js/1.f4becb27.chunk.js.map": "/Udacity-Book-Tracking-App/static/js/1.f4becb27.chunk.js.map",
+  "static/js/1.df020cf6.chunk.js": "/Udacity-Book-Tracking-App/static/js/1.df020cf6.chunk.js",
+  "static/js/1.df020cf6.chunk.js.map": "/Udacity-Book-Tracking-App/static/js/1.df020cf6.chunk.js.map",
   "runtime~main.js": "/Udacity-Book-Tracking-App/static/js/runtime~main.beb6e763.js",
   "runtime~main.js.map": "/Udacity-Book-Tracking-App/static/js/runtime~main.beb6e763.js.map",
-  "static/media/App.css": "/Udacity-Book-Tracking-App/static/media/add.bb9363b8.svg",
+  "static/media/App.css": "/Udacity-Book-Tracking-App/static/media/arrow-drop-down.78c6f53b.svg",
   "static/css/main.8694ac02.chunk.css.map": "/Udacity-Book-Tracking-App/static/css/main.8694ac02.chunk.css.map",
   "static/css/1.ab87b6a5.chunk.css.map": "/Udacity-Book-Tracking-App/static/css/1.ab87b6a5.chunk.css.map",
   "index.html": "/Udacity-Book-Tracking-App/index.html",
-  "precache-manifest.14cd1d4d10094a31427f21624684bb57.js": "/Udacity-Book-Tracking-App/precache-manifest.14cd1d4d10094a31427f21624684bb57.js",
+  "precache-manifest.c23672e7eed66cfd8ce93c6c5e5bd22e.js": "/Udacity-Book-Tracking-App/precache-manifest.c23672e7eed66cfd8ce93c6c5e5bd22e.js",
   "service-worker.js": "/Udacity-Book-Tracking-App/service-worker.js"
 }

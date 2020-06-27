@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Udacity-Book-Tracking-App/precache-manifest.14cd1d4d10094a31427f21624684bb57.js"
+  "/Udacity-Book-Tracking-App/precache-manifest.c23672e7eed66cfd8ce93c6c5e5bd22e.js"
 );
 
 workbox.clientsClaim();
