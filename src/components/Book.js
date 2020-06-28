@@ -8,15 +8,15 @@ const joinArr = (arr) => {
 class Book extends Component {
 
   handleChange = ({ target }) => {
-    const { book, handleChangeShelf } = this.props
+    const { book, handleChangeShelf } = this.props;
     const shelf = target.value;
     BooksAPI
       .update(book, shelf)
-      .then(() => handleChangeShelf && handleChangeShelf())
+      .then(() => handleChangeShelf && handleChangeShelf());
   }
 
   render() {
-    const { book } = this.props
+    const { book } = this.props;
     const { title, authors, shelf = "none", imageLinks } = book;
     return (
       <div className="book">
@@ -38,7 +38,7 @@ class Book extends Component {
         <div className="book-title">{title}</div>
         <div className="book-authors">{joinArr(authors)}</div>
       </div>
-    )
+    );
   }
 }
 

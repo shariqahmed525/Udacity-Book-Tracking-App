@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { createBrowserHistory } from "history";
-import { Router, Route, Switch, HashRouter } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
 import Home from "../components/Home";
 import Search from "../components/Search";
 import * as BooksAPI from '../BooksAPI';
@@ -36,7 +36,7 @@ class Routes extends Component {
   render() {
     const { books, loading } = this.state
     return (
-      <HashRouter history={history}>
+      <Router history={history}>
         <Switch>
           <Route
             exact
@@ -62,7 +62,7 @@ class Routes extends Component {
             )}
           />
         </Switch>
-      </HashRouter>
+      </Router>
     )
   }
 }

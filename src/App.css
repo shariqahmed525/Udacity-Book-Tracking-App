@@ -1,4 +1,6 @@
-html, body, .root {
+html, 
+body, 
+.root {
   height: 100%;
 }
 
@@ -6,8 +8,9 @@ body {
   line-height: 1.5;
 }
 
-body, .app {
-  background: white;
+body, 
+.app {
+  background: #fff;
 }
 
 /* main page */
@@ -21,7 +24,7 @@ body, .app {
 .list-books-title h1 {
   font-weight: 400;
   margin: 0;
-  color: white;
+  color: #fff;
 }
 
 .list-books-content {
@@ -40,7 +43,7 @@ body, .app {
 }
 
 .bookshelf-title {
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid #ded;
 }
 
 .bookshelf-books {
@@ -58,7 +61,7 @@ body, .app {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #2e7d32;
+  background: #2e7c31;
   background-image: url('./icons/add.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -69,9 +72,8 @@ body, .app {
 }
 
 .open-search:hover {
-  background-color: rgb(0, 102, 0);
+  background-color: #2e7c31;
 }
-
 
 /* search page */
 
@@ -94,8 +96,8 @@ body, .app {
   width: 100%;
   padding: 15px 10px;
   font-size: 1.25em;
-  border: none;
-  outline: none;
+  border: 0;
+  outline: 0;
 }
 
 .close-search {
@@ -109,13 +111,13 @@ body, .app {
   background-repeat: no-repeat;
   background-size: 28px;
   font-size: 0;
-  border: none;
-  outline: none;
+  border: 0;
+  outline: 0;
 }
 
 button:active {
-  border: red;
-  outline: none;
+  border: #ff0000;
+  outline: 0;
 }
 
 .search-books-results {
@@ -128,7 +130,7 @@ button:active {
 }
 
 .no-found{
-  color: red;
+  color: #ff0000;
   font-size: 20px;
   text-align: center;
 }
@@ -153,7 +155,7 @@ button:active {
   width: 140px;
 }
 
-.book-title,
+.book-title, 
 .book-authors {
   font-size: 0.8em;
 }
